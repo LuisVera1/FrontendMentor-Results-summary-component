@@ -1,19 +1,7 @@
 
-import { useEffect, useState } from 'react';
 import './styles.css'
 
-export const SummaryItems = () => {
-  const [data, setData] = useState([])
-
-  const getData = async () => {
-    const resp = await fetch('/data.json')
-    const data = await resp.json()
-    setData(data)
-  }
-
-  useEffect(() => {
-    getData();
-  }, [])
+export const SummaryItems = ({ data }) => {
 
   const Item = ({ fields }) => {
     const { category, icon, score, index } = fields;
