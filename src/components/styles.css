@@ -1,0 +1,74 @@
+:root {
+	--light-red: #ff5757;
+	--light-redb: #ff57570d;
+	--orange-yellow: #ffb01f;
+	--orange-yellowb: #ffb01f0d;
+	--green-teal: #00bd91;
+	--green-tealb: #00bd910d;
+	--cobalt-blue: #1125d4;
+	--cobalt-blueb: #1125d40d;
+}
+
+.points {
+	align-items: center;
+	border-radius: 12px;
+	display: flex;
+	flex-direction: row;
+	height: 56px;
+	justify-content: space-between;
+	padding: 0 16px;
+}
+
+.points__result {
+	color: var(--dark-gray-blue50);
+	font-weight: 700;
+}
+
+.points__result--strong {
+	color: var(--dark-gray-blue);
+}
+
+.points__result1 {
+	background-color: var(--light-redb);
+}
+
+.points__result2 {
+	background-color: var(--orange-yellowb);
+}
+
+.points__result3 {
+	background-color: var(--green-tealb);
+}
+
+.points__result4 {
+	background-color: var(--cobalt-blueb);
+}
+
+.points__label-section {
+	display: flex;
+}
+
+.points__icon {
+	height: 20px;
+}
+
+.points__title {
+	font-weight: 500;
+	margin-left: 10px;
+}
+
+.title1 {
+	color: var(--light-red);
+}
+
+.title2 {
+	color: var(--orange-yellow);
+}
+
+.title3 {
+	color: var(--green-teal);
+}
+
+.title4 {
+	color: var(--cobalt-blue);
+}
